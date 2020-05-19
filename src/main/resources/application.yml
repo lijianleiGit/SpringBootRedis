@@ -1,0 +1,24 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: redisDemo
+
+
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  max-wait: 30000 #连接池最大阻塞时间
+  max-active: 100 #连接池最大连接和数量
+  max-idle : 20 #连接池最大空闲连接
+  min-idle: 0 #连接处最小连接数量
+  timeout: 3000 #连接超时
+
+
+
+
+
+#hdfs:
+#  path: hdfs://192.168.249.133:9000
